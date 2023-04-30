@@ -1,0 +1,23 @@
+#quote span{
+    color: white;
+    font-size: 20px;
+}
+#quote{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#weather{
+    margin-top: 10px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#weather span{
+    color: white;
+}
+    

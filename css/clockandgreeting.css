@@ -1,0 +1,49 @@
+#clock{
+    color: rgba(255, 255, 255, 1);
+    font-size: 150px;
+    margin-bottom: 20px;      
+}
+.greeting{
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: 20px;     
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.login-form input{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 5px solid white;
+    margin-bottom: 20px;
+    color: white;
+}
+.login-form input:focus{
+    outline: none;
+}
+
+.login-form :-ms-input-placeholder{
+    color: white;
+}
+.login-form input::-webkit-input-placeholder {
+    color: white;
+  }
+  
+  .login-form input:-moz-placeholder {
+    color: white;
+  }
+  
+  .login-form input::-moz-placeholder {
+    color: white;
+  }
+  
+  .login-form input:-ms-input-placeholder {
+    color: white;
+  }
+  
